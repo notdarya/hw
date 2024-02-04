@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Cygre;
+    src: url(fonts/ofont.ru_Cygre.ttf);
+}
+
+.menu{
+    padding: 15px;
+}
+li{
+    list-style-type: none;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Cygre;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header{
+    /* background-color: rgb(194, 191, 191); */
+    background-color: rgb(218, 111, 111);
+}
+
+.menu_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-family: Cygre;
+}
+
+.under_header{
+    background-color: rgb(192, 117, 117);
+    padding: 25px;
+}
+
+.menu_item-auth{
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    font-family: Cygre;
+}
+ 
+.content{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.content_text{
+    font-size: 20px;
+    font-family: Cygre;
+    padding-bottom: 25px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.prod_img{
+    width: 250px;
+    height: 250px;
+}
+
+.prod_item{
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.index_prod{
+    margin-bottom: 150px;
+}
+
+.prod_items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.prod_item p{
+    padding-bottom: 15px;
+    font-size: 23px;
+    font-family: Cygre;
+}
+.buy{
+    margin-top: 20px;
+    display: block;
+    font-size: 20px;
+    font-family: Cygre;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    background-color: rgb(218, 111, 111);
+}
+
+.buy:hover{
+    transition: 0.5s;
+    background-color: rgb(104, 31, 31);
+    color: white;
+}
+
+.footer{
+    background-color: rgb(218, 111, 111);
+}
+
+.auth_form-index{
+    margin-top: 50px;
+    padding-bottom: 29px;
+}
+
+.auth_form{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.auth_form input{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: Cygre;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.reg_form-index{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.reg_form{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.reg_form input{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: Cygre;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.prod{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.title{
+    font-size: 20px;
+}
